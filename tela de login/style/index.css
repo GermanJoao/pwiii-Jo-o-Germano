@@ -1,0 +1,51 @@
+/* style/index.css (adaptado de style/login.css) */
+
+body {
+    font-family: sans-serif;
+    background-image: linear-gradient(to bottom right, rgb(101, 98, 255), rgb(127, 166, 238));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    color: #333; /* Cor padrão do texto para melhor contraste com o fundo */
+}
+
+.container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Centraliza o texto dentro do container */
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos específicos para as mensagens e links */
+.mensagem-principal {
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-style:oblique;
+}
+
+.mensagem-secundaria {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.link-login {
+    display: inline-block; /* Permite que o link fique na mesma linha de outros elementos, se necessário */
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.texto-vermelho {
+    color: red;
+}
